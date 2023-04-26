@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato&family=Varela+Round&display=swap');
+
+body {
+  background: linear-gradient(0deg, rgba(111,160,188,1) 0%, rgba(255,255,255,1) 100%);
+  color: 9BA4B5;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+img {
+  max-width: 100%; /* ensures the image is responsive and fits within its container */
+  display: block; /* removes any default spacing or alignment for the image */
+  margin: 0 auto; /* centers the image horizontally within its container */
+  width: 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* adds a subtle shadow effect */
+  border-radius: 5px;
+}
+
+h1 {
+  color: #576CBC;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+  line-height: 1.5;
+}
+
+h2, h3 {
+  color: #576CBC;
+  font-size: 32px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+a {
+  color: 9384D1;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: sienna;
+  transition: 0.3s;
+}
+
+div {
+  background-color: white;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#interests {
+  text-align: left;
+}
+#links {
+  list-style: none;
+  font-size: 24;
+  padding-left: 0px;
+}
+#links li {
+  display: inline-block;
+  margin-right: 10px; /* optional spacing between the items */
+}
